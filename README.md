@@ -33,12 +33,12 @@ The current solution presents a number of problems for our client.
 
 There are a number of distinct concerns that need addressed. Try collaborative divide & conquer to address each one within the timebox. Below are a few areas and some considerations to think about:
 
--Data Storage (Considerations: throughput; local data vs. centralized data)
--ETL (Considerations: migrating from old system over an extended period of time; at least minute-by-minute data sync from POS)
--Payment Processing (Considerations: throughput, scalability to at least 10.25 millions transactions per hour, 2-way account balance updates, batch vs. real-time processing, network disruptions)
--Website Hosting
--Load Testing
--Etc...
+- Data Storage (Considerations: throughput; local data vs. centralized data)
+- ETL (Considerations: migrating from old system over an extended period of time; at least minute-by-minute data sync from POS)
+- Payment Processing (Considerations: throughput, scalability to at least 10.25 millions transactions per hour, 2-way account balance updates, batch vs. real-time processing, network disruptions)
+- Website Hosting
+- Load Testing
+- Etc...
 
 You don't need to create a completely comprehensive architecture. The goal here is to learn and get a taste for what is available through your own research and the research of your peers. 
 
