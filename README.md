@@ -1,5 +1,5 @@
 # COAzure 2016-10-10 Meeting
-### Architecture Design Case Study
+### Architecture Design Case Study Exercise Instructions
 
 The goal of this meeting’s activity will be to learn more about the various Azure services, and how to use them together to architect a solution in Azure.  Work as teams to research various Azure services and decide how to use those to propose an architecture for the system described in the below case study and application/system requirements.
 
@@ -29,6 +29,19 @@ The current solution presents a number of problems for our client.
 4. There needs to be a process for migrating customers off of the on-premise servers to the new solution.  Our client would like to move that data over a period of time, perhaps a month or two, before they update the POS devices with the new solution.  
 5. They need some proof/verification that the new solution will scale to meet their needs.  Their current solution processes about 1.25 million transactions per hour.  They would like the new solution to immediately handle 10X that volume, with room to scale well beyond that.
 
-## Resources
+## Resources & Tips
+
+There are a number of distinct concerns that need addressed. Try collaborative divide & conquer to address each one within the timebox. Below are a few areas and some considerations to think about:
+
+-Data Storage (Considerations: throughput; local data vs. centralized data)
+-ETL (Considerations: migrating from old system over an extended period of time; at least minute-by-minute data sync from POS)
+-Payment Processing (Considerations: throughput, scalability to at least 10.25 millions transactions per hour, 2-way account balance updates, batch vs. real-time processing, network disruptions)
+-Website Hosting
+-Load Testing
+-Etc...
+
+You don't need to create a completely comprehensive architecture. The goal here is to learn and get a taste for what is available through your own research and the research of your peers. 
+
+To see some available options to consider, refer to the Azure Period Table, though there are several more services available since the creation of that image. [See the full service directory.] (https://azure.microsoft.com/en-us/services/)
 
 ![Azure Periodic Table](https://image-store.slidesharecdn.com/2ee445f2-bc7d-42be-8584-6bddcdda48aa-original.png)
