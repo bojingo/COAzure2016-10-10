@@ -31,4 +31,4 @@ The current solution presents a number of problems for our client.
 
 ## Resources
 
-![Azure Periodic Table](http://i0.wp.com/photos3.meetupstatic.com/photos/event/4/e/4/0/600_454820032.jpeg?w=640)
+![Azure Periodic Table](https://image-store.slidesharecdn.com/2ee445f2-bc7d-42be-8584-6bddcdda48aa-original.png)
